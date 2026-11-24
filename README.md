@@ -101,6 +101,14 @@ Each unit initializes its own sensors, so the long AM2320 start-up (~5 s) does n
 | `*_SCL_SPEED_HZ` | each sensor driver | I2C speed for this sensor |
 | `BMP388_SEA_LEVEL_HPA`, `LPS331_SEA_LEVEL_MBAR` | barometer drivers | sea-level pressure for the altitude formula |
 
+---
+
+## Authors 
+
+- **Diana Kalinichenko** — [@kalinichenkodianaas61](https://github.com/kalinichenkodianaas61)
+  sensor drivers (mpu6050, mma8452, lps331ap, dht20), shared I2C bus, dashboard 
+- **Anastasia Pimahova** — [@PimahovaAnastasia](https://github.com/PimahovaAnastasia)
+  sensor drivers (bmp388, am2320), shared I2C bus, dashboard 
 
 
 
