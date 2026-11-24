@@ -32,7 +32,8 @@ Board: **ESP32** or **ESP32-S3**. The code is the same for both.
 
 ## What you see
 The dashboard is redrawn in place every 250 ms.
-SCREEN 
+
+![Dashboard](dashboard.png)
 
 Status column
 | Status | Meaning |
